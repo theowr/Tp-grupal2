@@ -3,10 +3,12 @@ using UnityEngine.UI;
 
 public class Plata : MonoBehaviour
 {
+
     public Button[] botones;  // Array de botones para las opciones
     public int presupuesto;
     public int precio1;
     public int precio2;
+    
     private Text presupuestoTxt;
     private Text precio1Txt;
     private Text precio2Txt;
