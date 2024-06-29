@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using unityEngine.UI
+using unityEngine.UI;
 
 public class Plata : MonoBehaviour
 {
