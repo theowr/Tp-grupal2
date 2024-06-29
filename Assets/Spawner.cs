@@ -18,10 +18,11 @@ public class Spawner : MonoBehaviour
             int randomIndex = Random.Range(0, Objetos.Length);
             GameObject selectedObject = Objetos[randomIndex];
 
-            GameObject spawnedObject = Instantiate(selectedObject, transform.position, Quaternion.identity);
+            Vector3 spawnPosition = transform.position + transform.forward * 1000f;
+            GameObject spawnedObject = Instantiate(selectedObject, spawnPosition, Quaternion.identity);
 
             // Scale the spawned object to 4 times its original size
-            spawnedObject.transform.localScale *= 20f;
+            spawnedObject.transform.localScale *= 600f;
         }
         else
         {
