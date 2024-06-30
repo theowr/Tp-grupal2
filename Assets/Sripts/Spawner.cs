@@ -17,16 +17,10 @@ public class Spawner : MonoBehaviour
         {
             int randomIndex = Random.Range(0, Objetos.Length);
             GameObject selectedObject = Objetos[randomIndex];
-
-            Vector3 spawnPosition = transform.position + transform.forward * 1000f;
+            Vector3 spawnPosition = transform.position; 
             GameObject spawnedObject = Instantiate(selectedObject, spawnPosition, Quaternion.identity);
 
-            // Scale the spawned object to 4 times its original size
-            spawnedObject.transform.localScale *= 600f;
-        }
-        else
-        {
-            Debug.LogWarning("No objects in the array to spawn.");
+            spawnedObject.transform.localScale *= 100f;
         }
     }
 }
