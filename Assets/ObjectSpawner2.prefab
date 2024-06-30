@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7298636813887978236
+--- !u!1 &7783612382618244955
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,7 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7298636813887978237}
+  - component: {fileID: 7783612382618244954}
+  - component: {fileID: 7783612382618244957}
   m_Layer: 0
   m_Name: ObjectSpawner2
   m_TagString: Untagged
@@ -16,17 +17,42 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7298636813887978237
+--- !u!4 &7783612382618244954
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7298636813887978236}
+  m_GameObject: {fileID: 7783612382618244955}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 401, y: 149, z: -0.2831421}
+  m_LocalPosition: {x: 568.1, y: 149, z: 1083}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7783612382618244957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7783612382618244955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98370ba174fe70641b320684cb201d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Objetos:
+  - {fileID: 100000, guid: 0df8d13aef4863f4881c5401f680c93a, type: 3}
+  - {fileID: 100000, guid: 4bf9bbde1379bbf4489497a7295a8a0d, type: 3}
+  - {fileID: 100000, guid: 7d9f556fe9d46a7498bf0c2748de7299, type: 3}
+  - {fileID: 100000, guid: ea2ef2c3b2c86bd44b94c224f9f5bb6a, type: 3}
+  - {fileID: 100000, guid: ac4eaba99fbb2b6418bfc492707dddee, type: 3}
+  - {fileID: 100000, guid: a555161e57eb77b4c81d584cefa192f5, type: 3}
+  - {fileID: 100000, guid: c26721f6e5e43024384983a953d2503e, type: 3}
+  - {fileID: 100000, guid: 9995d9a3018058f4694cdd5ebda97614, type: 3}
+  - {fileID: 100006, guid: 1a96a434a60abb041936e825d8f18cee, type: 3}
+  - {fileID: 100000, guid: d55fcb9f67711ed45975a0df417c3c41, type: 3}
+  - {fileID: 100000, guid: a3c1b1d3503adb1489dcb58c46257be1, type: 3}
+  - {fileID: 100000, guid: 1a355573e6a5c78448e1a7b9adee432a, type: 3}
